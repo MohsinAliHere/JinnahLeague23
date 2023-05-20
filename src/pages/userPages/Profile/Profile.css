@@ -1,0 +1,10 @@
+.Custominp{
+    border: 2px solid #000000 !important;
+    padding: 10px !important;
+    border-radius: 5px;
+    width: 40% !important;
+}
+.Custominp:focus{
+    border: 2px solid #deb666 !important;
+  
+}

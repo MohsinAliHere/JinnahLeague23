@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+* {
+  text-decoration: none !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.customFont{
+  font-family: 'Gilda Display', serif !important;
+}
+
+.logoTxt {
+  font-family: "Vollkorn", serif !important;
+  color: #deb666 !important;
+}
+
+.txtColor{
+  color: #deb666 !important;
+}
+
+.customBtn {
+  background-color: #deb666 !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.centeDiv {
+  position: absolute !important ;
+  top: 50% !important ;
+  left: 50% !important ;
+  transform: translate(-50%, -50%) !important ;
+}
+
+.Custominp{
+  min-width:450px !important;
+  width: 100% !important;
+
+}

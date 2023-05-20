@@ -1,0 +1,41 @@
+.customBanner {
+  /* background-color: red !important;  */
+  background-image: url("../../assets/bedbreakfast.jpg");
+  height: 650px !important;
+  border-radius: 2% !important;
+  background-repeat: no-repeat !important;
+  background-position: right !important;
+  background-size: auto !important;
+}
+
+.customPara {
+  font-size: 1rem !important ;
+}
+
+.mainBannerDiv {
+  padding: 25px !important;
+  position: relative;
+  top: 40%;
+  width: fit-content !important;
+  z-index: 999 !important;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.fontHandle {
+  font-size: 1.5rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .customPara{
+        font-size: .5rem !important;
+    }
+  .fontHandle {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+}
